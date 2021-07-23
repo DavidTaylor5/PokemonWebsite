@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <link rel="stylesheet" type="text/css" href="ex3.css"/>
+    <link rel="stylesheet" href="https://bootswatch.com/5/minty/bootstrap.min.css">
+    
+    <script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>    
+    <script type="text/javascript" language="javascript" src="ex3.js"></script> 
+
+</head>
+<body>
+    
+    <!--<div class="mintContainer">-->
+    <div class="container" style="padding-top: 15px; background-color: wheat; margin-top: 10%;">
+    <h1 id="firstH">A POKEMON Appreciation Website!</h1>
+
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+        <a class="nav-link active" href="#home" id="hometab">Home</a> <!--determine which nav tab is active and which div to show-->
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#profile" id="profiletab">Pokemon Stats</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#disabled" id="disabledtab">Pokemon Video</a>
+        </li>
+        
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade active show" id="home"> <!-- active show-->
+        <p>My submission for exercise 2 is a website that consumes web services. The main focus of this project is to inform visitors about the 'POKEMON' franchise. The "Pokemon Stats" tab is for generating pokemon stats based on a pokemon's number while the "Relevant Videos" tab links the user to a popular youtube video on the subject.</p>
+        </div>
+        <div class="tab-pane fade" id="profile">
+            <div class="container">
+                <hr>
+                <p>Enter an integer value and press the pokemon button to determine a pokemon by its number!</p>
+                <input type="text" id="pokemonnumber">
+                <button type="button" class="btn btn-danger" id="pokemonbtn">Pokemon!</button>
+                <div id="card">
+                    <!--Pokemon Card goes here-->
+                </div>
+                
+            </div>
+        </div>
+        <div class="tab-pane fade" id="disabled"> <!-- active show-->
+            <div class="container">
+
+                <hr>
+                <p>Press this button to generate a random POKEMON youtube video!</p>
+                <button type="button" class="btn btn-danger" id="videobtn">Video!</button>
+                <div id="youtubeSpace">
+                    <hr>
+                    <!--Youtube video goes here-->
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!--</div>-->
+    </div>
+
+</body>
+</html>
