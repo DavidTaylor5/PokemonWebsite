@@ -10,6 +10,6 @@ which allows me to get all of the statistics of a pokemon based on its number.
 The Pokemon Video tab uses the youtube API to search for pokemon video ids.
 Using the ids retrived I display a random youtube video.
 
-https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=pokemon&key=AIzaSyCx2ttak0pgxrUihmDmLZfkRycwS9PM27k
-My google API key is AIzaSyCx2ttak0pgxrUihmDmLZfkRycwS9PM27k
+https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=pokemon&key={API KEY}
+My google API key is ********************************
 
